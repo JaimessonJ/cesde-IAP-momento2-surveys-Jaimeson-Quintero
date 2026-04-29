@@ -6,6 +6,52 @@
     <title>Contáctanos</title>
 </head>
 <body>
-    
+    <fieldset>
+        <legend>Fomulario de contacto</legend>
+
+        <form class="contact-us">
+            <label>Ingrese su nombre: 
+                <input type="text" placeholder="Nombre completo" required>
+            </label>
+
+            <label>Ingrese su correo electrónico
+                <input type="email" placeholder="Correo@gmail.com" required>
+            </label>
+
+            <label>Ingrese su número de celular
+                <input type="number" placeholder="3002233344" required>
+            </label>
+
+            <label for="pais">¿De qué país eres?</label>
+
+            <select name="pais" id="pais">
+                <option value="" selected disabled>Seleciona un pais</option>
+                <option value="colombia">Colombia</option>
+                <option value="mexico">mexico</option>
+                <option value="venezuela">Venezuela</option>
+            </select>
+
+                <p>¿Cómo prefieres que te respondamos?</p>
+
+            <label>
+                <input type="radio">Correo
+            </label>
+
+            <label>
+                <input type="radio">Teléfono
+            </label>
+
+            
+            <label>
+                <input type="checkbox"> Aceptar terminos y condiciones
+            </label>
+            <br>
+            <label>Enviame un mensaje
+            <textarea rows="5" cols="5"></textarea>
+            </label> 
+            <br>
+            <button type="submit">Enviar</button>
+        </form>
+    </fieldset>
 </body>
 </html>

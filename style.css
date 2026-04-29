@@ -1,0 +1,17 @@
+body {
+    background-color: rgb(96, 96, 184);
+}
+
+label {
+    display: block;
+    margin: 10px;
+}
+
+a{
+    background-color: rgb(148, 20, 20);
+    color: black;
+}
+
+p {
+    font-size: 20px;
+}
